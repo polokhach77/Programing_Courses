@@ -1,0 +1,255 @@
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\ToDoList.dll.config
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\ToDoList.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\ToDoList.pdb
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csc.exe
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csc.exe.config
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csc.rsp
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csi.exe
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csi.exe.config
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\csi.rsp
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.AppContext.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Console.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.IO.Compression.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Net.Http.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.ValueTuple.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\vbc.exe
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\vbc.exe.config
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\vbc.rsp
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\VBCSCompiler.exe
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Antlr3.Runtime.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\EntityFramework.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\EntityFramework.SqlServer.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Newtonsoft.Json.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Helpers.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Mvc.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Optimization.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Razor.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.Razor.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\WebGrease.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\EntityFramework.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\EntityFramework.SqlServer.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Helpers.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Mvc.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Optimization.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.Razor.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\System.Web.WebPages.Razor.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Newtonsoft.Json.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Antlr3.Runtime.pdb
+C:\Users\Олег\source\repos\ToDoList\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.csprojAssemblyReference.cache
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.csproj.CopyComplete
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.dll
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.pdb
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.Migrations.InitialCreate.resources
+C:\Users\Олег\source\repos\ToDoList\ToDoList\obj\Debug\ToDoList.csproj.GenerateResource.cache
+D:\Work\ToDoListLCT\ToDoList\bin\ToDoList.dll.config
+D:\Work\ToDoListLCT\ToDoList\bin\ToDoList.dll
+D:\Work\ToDoListLCT\ToDoList\bin\ToDoList.pdb
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csc.exe
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csc.exe.config
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csc.rsp
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csi.exe
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csi.exe.config
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\csi.rsp
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.AppContext.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Console.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Globalization.Calendars.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.IO.Compression.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.IO.FileSystem.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Net.Http.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Net.Sockets.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.ValueTuple.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Xml.XPath.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\vbc.exe
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\vbc.exe.config
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\vbc.rsp
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\VBCSCompiler.exe
+D:\Work\ToDoListLCT\ToDoList\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\ToDoListLCT\ToDoList\bin\Antlr3.Runtime.dll
+D:\Work\ToDoListLCT\ToDoList\bin\EntityFramework.dll
+D:\Work\ToDoListLCT\ToDoList\bin\EntityFramework.SqlServer.dll
+D:\Work\ToDoListLCT\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\ToDoListLCT\ToDoList\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\ToDoListLCT\ToDoList\bin\Newtonsoft.Json.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Helpers.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Mvc.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Optimization.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Razor.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.Deployment.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.dll
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.Razor.dll
+D:\Work\ToDoListLCT\ToDoList\bin\WebGrease.dll
+D:\Work\ToDoListLCT\ToDoList\bin\EntityFramework.xml
+D:\Work\ToDoListLCT\ToDoList\bin\EntityFramework.SqlServer.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Helpers.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Mvc.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Optimization.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.Razor.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.Deployment.xml
+D:\Work\ToDoListLCT\ToDoList\bin\System.Web.WebPages.Razor.xml
+D:\Work\ToDoListLCT\ToDoList\bin\Newtonsoft.Json.xml
+D:\Work\ToDoListLCT\ToDoList\bin\Antlr3.Runtime.pdb
+D:\Work\ToDoListLCT\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.csproj.AssemblyReference.cache
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.Migrations.InitialCreate.resources
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.csproj.GenerateResource.cache
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.csproj.CoreCompileInputs.cache
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.csproj.CopyComplete
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.dll
+D:\Work\ToDoListLCT\ToDoList\obj\Debug\ToDoList.pdb
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\ToDoList.dll.config
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\ToDoList.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\ToDoList.pdb
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csc.exe
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csc.exe.config
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csc.rsp
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csi.exe
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csi.exe.config
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\csi.rsp
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.AppContext.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Console.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.IO.Compression.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Net.Http.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.ValueTuple.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\vbc.exe
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\vbc.exe.config
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\vbc.rsp
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\VBCSCompiler.exe
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Antlr3.Runtime.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\EntityFramework.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\EntityFramework.SqlServer.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Newtonsoft.Json.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Helpers.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Mvc.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Optimization.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Razor.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.Razor.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\WebGrease.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\EntityFramework.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\EntityFramework.SqlServer.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Helpers.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Mvc.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Optimization.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.Razor.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\System.Web.WebPages.Razor.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Newtonsoft.Json.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Antlr3.Runtime.pdb
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.csproj.AssemblyReference.cache
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.Migrations.InitialCreate.resources
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.csproj.GenerateResource.cache
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.csproj.CopyComplete
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.dll
+C:\Users\Олена\OneDrive\Робочий стіл\ToDoListLCT-master\ToDoList\obj\Debug\ToDoList.pdb

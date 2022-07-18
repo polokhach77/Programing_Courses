@@ -1,0 +1,1428 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio website</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Grape+Nuts&display=swap" rel="stylesheet">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            background-color:papayawhip;
+        }
+
+        #canvas {
+            display: block;
+            width: auto;
+            height: 100%;
+            margin-left: -25%;
+            background-color:black;
+        }
+
+        .content {
+            position: absolute;
+            top: 45%;
+            left: 8%;
+            transform: translateY(-50%);
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+            .content h1 {
+                color: rgb(13, 198, 245);
+                margin: 20px 0px 20px;
+                font-size: 75px;
+            }
+            h1:hover{
+                color:mediumvioletred;
+            }
+
+        .content h3 {
+            color: rgba(242, 9, 219, 0.827);
+          
+            font-size: 30px;
+            margin-bottom: 50px;
+            width: 500px;
+            text-shadow: 10px 10px 10px white, 10px red;
+        }
+
+            .content h4 {
+                color: rgba(16, 244, 77, 0.8);
+                letter-spacing: 2px;
+            }
+       .back div {
+            top: 0;
+            left: 0;
+            background-size: cover;
+            width: 50%;
+            height: 50%;
+        }
+
+        .back img {
+            margin-top:5%;
+            margin-right:5%;
+            border-radius:20px 20px;
+
+        }
+
+       .back canvas {
+            position: absolute;
+            margin-top: 3.4%;
+            left: 0;
+            mix-blend-mode: multiply;
+            height: 581px;
+            width: 792px;
+            margin-left:16.7%;
+            border-radius:20px 20px;
+        }
+        .pp {
+            color: darkblue;
+            font-size:45px;
+            margin-top:3%;
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+        .field fieldset {
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            border-radius: 20px 20px;
+            box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+            background-color:white;
+            margin-top: -30%;
+            margin-left: 50%;
+        }
+        .field p {
+            font-size: 35px;
+            color: rgb(13, 183, 202);
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+        .field h4 {
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            font-size: 20px;
+            color: rgb(0, 42, 255);
+            width: 250px;
+            margin-left: 80px;
+        }
+        .field2 fieldset {
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            border-radius: 20px 20px;
+            box-shadow: 0 4px 15px 0 rgba(231, 3, 144, 0.848);
+            background-color: white;
+            margin-top: -15%;
+            margin-left: 50%;
+        }
+        .field2 p {
+            font-size: 35px;
+            color: lightpink;
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+        .field2 h4 {
+            text-align: center;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            font-size: 20px;
+            color: deeppink;
+            width: 250px;
+            margin-left: 80px;
+        }
+
+    .vidio  h1 {
+  margin-bottom: 1.375em;
+  color: #fff;
+  font-weight: 100;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.vidio p,
+a {
+  color: rgba(255,255,255,0.3);
+  font-size: small;
+}
+.vidio p { margin: 1.375rem 0; }
+
+.icon {
+  position: relative;
+  display: inline-block;
+  width: 12em;
+  height: 10em;
+  font-size: 1em; /* control icon size here */
+}
+
+.cloud {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 3.6875em;
+  height: 3.6875em;
+  margin: -1.84375em;
+  background: currentColor;
+  border-radius: 50%;
+  box-shadow:
+    -2.1875em 0.6875em 0 -0.6875em,
+    2.0625em 0.9375em 0 -0.9375em,
+    0 0 0 0.375em #fff,
+    -2.1875em 0.6875em 0 -0.3125em #fff,
+    2.0625em 0.9375em 0 -0.5625em #fff;
+}
+.cloud:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -0.5em;
+  display: block;
+  width: 4.5625em;
+  height: 1em;
+  background: currentColor;
+  box-shadow: 0 0.4375em 0 -0.0625em #fff;
+}
+.cloud:nth-child(2) {
+  z-index: 0;
+  background: #fff;
+  box-shadow:
+    -2.1875em 0.6875em 0 -0.6875em #fff,
+    2.0625em 0.9375em 0 -0.9375em #fff,
+    0 0 0 0.375em #fff,
+    -2.1875em 0.6875em 0 -0.3125em #fff,
+    2.0625em 0.9375em 0 -0.5625em #fff;
+  opacity: 0.3;
+  transform: scale(0.5) translate(6em, -3em);
+  animation: cloud 4s linear infinite;
+}
+.cloud:nth-child(2):after { background: #fff; }
+
+.sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  margin: -1.25em;
+  background: currentColor;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.375em #fff;
+  animation: spin 12s infinite linear;
+}
+.rays {
+  position: absolute;
+  top: -2em;
+  left: 50%;
+  display: block;
+  width: 0.375em;
+  height: 1.125em;
+  margin-left: -0.1875em;
+  background: #fff;
+  border-radius: 0.25em;
+  box-shadow: 0 5.375em #fff;
+}
+.rays:before,
+.rays:after {
+  content: '';
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  display: block;
+  width: 0.375em;
+  height: 1.125em;
+  transform: rotate(60deg);
+  transform-origin: 50% 3.25em;
+  background: #fff;
+  border-radius: 0.25em;
+  box-shadow: 0 5.375em #fff;
+}
+.rays:before {
+  transform: rotate(120deg);
+}
+.cloud + .sun {
+  margin: -2em 1em;
+}
+
+.rain,
+.lightning,
+.snow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 3.75em;
+  height: 3.75em;
+  margin: 0.375em 0 0 -2em;
+  background: currentColor;
+}
+
+.rain:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 1.125em;
+  height: 1.125em;
+  margin: -1em 0 0 -0.25em;
+  background: #0cf;
+  border-radius: 100% 0 60% 50% / 60% 0 100% 50%;
+  box-shadow:
+    0.625em 0.875em 0 -0.125em rgba(255,255,255,0.2),
+    -0.875em 1.125em 0 -0.125em rgba(255,255,255,0.2),
+    -1.375em -0.125em 0 rgba(255,255,255,0.2);
+  transform: rotate(-28deg);
+  animation: rain 3s linear infinite;
+}
+
+.bolt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.25em 0 0 -0.125em;
+  color: #fff;
+  opacity: 0.3;
+  animation: lightning 2s linear infinite;
+}
+.bolt:nth-child(2) {
+  width: 0.5em;
+  height: 0.25em;
+  margin: -1.75em 0 0 -1.875em;
+  transform: translate(2.5em, 2.25em);
+  opacity: 0.2;
+  animation: lightning 1.5s linear infinite;
+}
+.bolt:before,
+.bolt:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin: -1.625em 0 0 -1.0125em;
+  border-top: 1.25em solid transparent;
+  border-right: 0.75em solid;
+  border-bottom: 0.75em solid;
+  border-left: 0.5em solid transparent;
+  transform: skewX(-10deg);
+}
+.bolt:after {
+  margin: -0.25em 0 0 -0.25em;
+  border-top: 0.75em solid;
+  border-right: 0.5em solid transparent;
+  border-bottom: 1.25em solid transparent;
+  border-left: 0.75em solid;
+  transform: skewX(-10deg);
+}
+.bolt:nth-child(2):before {
+  margin: -0.75em 0 0 -0.5em;
+  border-top: 0.625em solid transparent;
+  border-right: 0.375em solid;
+  border-bottom: 0.375em solid;
+  border-left: 0.25em solid transparent;
+}
+.bolt:nth-child(2):after {
+  margin: -0.125em 0 0 -0.125em;
+  border-top: 0.375em solid;
+  border-right: 0.25em solid transparent;
+  border-bottom: 0.625em solid transparent;
+  border-left: 0.375em solid;
+}
+
+.flake:before,
+.flake:after {
+  content: '\2744';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1.025em 0 0 -1.0125em;
+  color: #fff;
+  list-height: 1em;
+  opacity: 0.2;
+  animation: spin 8s linear infinite reverse;
+}
+.flake:after {
+  margin: 0.125em 0 0 -1em;
+  font-size: 1.5em;
+  opacity: 0.4;
+  animation: spin 14s linear infinite;
+}
+.flake:nth-child(2):before {
+  margin: -0.5em 0 0 0.25em;
+  font-size: 1.25em;
+  opacity: 0.2;
+  animation: spin 10s linear infinite;
+}
+.flake:nth-child(2):after {
+  margin: 0.375em 0 0 0.125em;
+  font-size: 2em;
+  opacity: 0.4;
+  animation: spin 16s linear infinite reverse;
+}
+
+        button {
+            background-color: #f9004d;
+            color: #f9004d;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: .4s;
+            box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+        }
+
+            button:hover {
+                background-color: transparent;
+                border: 2px solid #f9004d;
+                cursor: pointer;
+            }
+        .service {
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            width: 100%;
+            padding: 100px 0px;
+        }
+
+        .title h2 {
+            color: hotpink;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            font-size: 75px;
+            width: 1130px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+        }
+
+        .card {
+            height: 365px;
+            width: 335px;
+            padding: 20px 35px;
+            background: #191919;
+            border-radius: 20px;
+            margin: 15px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 6px 15px 0 rgba(243, 37, 229, 0.949);
+            text-align: center;
+        }
+
+            .card i {
+                font-size: 50px;
+                display: block;
+                text-align: center;
+                margin: 25px 0px;
+                color: #f9004d;
+            }
+
+        h5 {
+            color: white;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        .pra p {
+            color: #fcfc;
+            font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 25px;
+        }
+
+        .card .button {
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 9px 22px;
+            border-radius: 30px;
+            transition: .4s;
+        }
+
+            .card .button:hover {
+                background-color: transparent;
+                border: 2px solid #f9004d;
+                cursor: pointer;
+            }
+        
+        .f-10 {
+            font-size: 3rem;
+            color: #8e80d3;
+            font-weight: 600;
+        }
+
+        
+        .logotype {
+            position: absolute;
+            margin-top: 1%;
+            margin-left: 60%;
+            display:flex;
+        }
+        .logotype img{
+            width:100px;
+            height:100px;
+        }
+
+            .logotype p span {
+                margin-top:1%;
+                font-size: 35px;
+                color: hotpink;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+            .logotype p {
+                margin-top: 1%;
+                font-size: 30px;
+                color: deepskyblue;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+        .kittyy {
+            margin-top: 10%;
+        }
+        .logogo img{
+            width:70px;
+            height:70px;
+        }
+        .conta {
+            max-width: 90%;
+            margin: auto;
+        }
+        .offer{
+            margin-top:50%;
+        }
+
+        .offer img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .offer .right {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+        }
+
+            .offer .content h4 {
+                font-size: 20px;
+                color: #627795;
+               
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+            .offer .rate i {
+                font-size: 23px;
+                color: #CC8C18;
+                margin: 10px 10px 20px 0;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+        .offer .content h5 {
+            color: #627795;
+            margin-bottom: 10px;
+        }
+
+        .heding {
+            text-align: center;
+        }
+
+            .heding h5 {
+                font-weight: 400;
+                letter-spacing: 5px;
+                color: #CC8C18;
+                padding-top: 20px;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+            .heding h2 {
+                color: white;
+                font-size: 45px;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+                margin: 10px 0 20px 0;
+            }
+
+        .left, .right {
+            width: 50%;
+        }
+
+        .flex1 {
+            display: flex;
+            justify-content: space-between;
+            color:azure;
+        }
+
+        .conta {
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .offer img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .offer .right {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+        }
+
+        .offer .content h4 {
+            font-size: 20px;
+            color: #627795;
+            font-family: serif;
+        }
+
+        .offer .rate i {
+            font-size: 13px;
+            color: #CC8C18;
+            margin: 10px 10px 20px 0;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+        .offer .conte h5 {
+            color: #627795;
+            margin-bottom: 10px;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+        .right h4, h5 {
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            color:hotpink;
+            font-size:30px;
+        }
+        .right p {
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+            font-size:20px;
+        }
+        .heding {
+            text-align: center;
+        }
+
+            .heding h5 {
+                font-weight: 400;
+                letter-spacing: 5px;
+                color: #CC8C18;
+                padding-top: 20px;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+            .heding h2 {
+                color: #24416B;
+                font-size: 45px;
+                margin: 10px 0 20px 0;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+        .left, .right {
+            width: 50%;
+        }
+            .right h5 {
+                color: deepskyblue;
+                font-size:25px;
+                font-family: 'Courgette', cursive;
+                font-family: 'Grape Nuts', cursive;
+            }
+
+        .flex1 {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+        .disc{
+            margin-top:3%;
+        }
+        .left img{
+            width:450px;
+            height:250px;
+        }
+        .background {
+            background-size: cover;
+            display: block;
+            width: 100%;
+            height: 1000px;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+        }
+
+        .background-texture {
+           
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+        }
+
+        .carousel {
+            width: 100%;
+            overflow-x: scroll;
+            padding: 30px;
+            padding-top: 80px;
+            position: relative;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .carousel__container {
+            white-space: nowrap;
+            margin: 70px 0px;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .categories__title {
+            color: deepskyblue;
+            font-size: 75px;
+            text-align:center;
+            position: absolute;
+            padding-left: 30px;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+
+        .carousel-item {
+            width: 200px;
+            height: 250px;
+            border-radius: 20px;
+            background-color: #95bcd6;
+            overflow: hidden;
+            margin-right: 10px;
+            margin-top: 70px;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-transition: 1000ms all;
+            transition: 1000ms all;
+            -webkit-transform-origin: center left;
+            transform-origin: center left;
+            position: relative;
+        }
+
+            .carousel-item:hover ~ .carousel-item {
+                -webkit-transform: translate3d(100px, 0, 0);
+                transform: translate3d(100px, 0, 0);
+            }
+
+        .carousel__container:hover .carousel-item {
+            opacity: 0.3;
+        }
+
+            .carousel__container:hover .carousel-item:hover {
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+                opacity: 1;
+            }
+
+        .carousel-item__img {
+            width: 200px;
+            height: 250px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+
+        .carousel-item__details {
+            background: -webkit-gradient( linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)) );
+            background: linear-gradient( to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100% );
+            font-size: 10px;
+            opacity: 0;
+            -webkit-transition: 450ms opacity;
+            transition: 450ms opacity;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+            .carousel-item__details:hover {
+                opacity: 1;
+            }
+
+            .carousel-item__details span {
+                /* width: 10px;
+  height: 10px; */
+                font-size: 0.9rem;
+                color: #2ecc71;
+                /* background-color: white; */
+            }
+
+            .carousel-item__details .controls {
+                padding-top: 180px;
+            }
+
+            .carousel-item__details .carousel-item__details--title,
+            .carousel-item__details--subtitle {
+                color: #fff;
+                margin: 5px 0;
+            }
+        .boxxx {
+            width: 1500px;
+            display: flex;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 15px;
+            margin: 5%;
+            padding: 5%;
+            max-width: 80rem;
+            padding-left: 50px;
+            background-color: rgba(236, 25, 190, 0.515);
+            border-radius:20px 20px;
+            margin-left:15%;
+        }
+
+        .cardss {
+            position: relative;
+            width: 350px;
+            height: 400px;
+            background: #fff;
+            margin: 0 auto;
+            margin-top: 4%;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.2);
+        }
+
+            .cardss:before,
+            .cardss:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 4px;
+                background: #fff;
+                transition: 0.5s;
+                z-index: -1;
+            }
+
+            .cardss:hover:before {
+                transform: rotate(20deg);
+                box-shadow: 0 2px 20px rgba(0,0,0,.2);
+            }
+
+            .cardss:hover:after {
+                transform: rotate(10deg);
+                box-shadow: 0 2px 20px rgba(0,0,0,.2);
+            }
+
+            .cardss .imgBx {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                bottom: 10px;
+                right: 10px;
+                background: #222;
+                transition: 0.5s;
+                z-index: 1;
+            }
+
+            .cardss:hover .imgBx {
+                bottom: 80px;
+            }
+
+            .cardss .imgBx img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .cardss .detailss {
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+                height: 60px;
+                text-align: center;
+                font-family: 'MV Boli';
+            }
+
+                .cardss .detailss h2 {
+                    margin: 0;
+                    padding: 0;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #777;
+                    text-transform: uppercase;
+                }
+
+                    .cardss .detailss h2 span {
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #f38695;
+                        display: block;
+                        margin-top: 5px;
+                    }
+
+        .ppp h1 {
+            font-size: 75px;
+            font-weight: normal;
+            color: hotpink;
+            text-align: center;
+            margin: 2rem 0;
+            text-align: center;
+            justify-content: center;
+            margin-right: -17%;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+        .conte h1 {
+            font-size: 75px;
+            font-weight: normal;
+            color: deepskyblue;
+            text-align: center;
+            margin: 2rem 0;
+            text-align: center;
+            justify-content: center;
+            margin-right: -17%;
+            font-family: 'Courgette', cursive;
+            font-family: 'Grape Nuts', cursive;
+        }
+            .pop h1 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            color: white;
+            text-align: center;
+            margin: 2rem 0;
+            text-align: center;
+            justify-content: center;
+            margin-right: 67%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="logotype">
+        <img src="~/fonts/css/kitty (1).png" />
+        <div class="kittyy">
+            <p><span><b>Magic</b></span>Web</p>
+        </div>
+    </div>
+    <div class="banana">
+        <canvas id="canvas"></canvas>
+
+        <div class="content">
+            <h1> <b>Tutorial<span>Web</span></b></h1>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eum obcaecati, expedita reprehenderit voluptates, praesentium rem, maxime vel soluta quod tempore voluptatibus corrupti possimus. Officiis magnam quis facilis ex! Aut.</h3>
+            <div class="newslatter">
+
+            </div>
+        </div>
+        <script>
+            function random(low, high) {
+                return Math.random() * (high - low) + low;
+            }
+
+            class Visual {
+                constructor() {
+                    this.canvas = document.querySelector('#canvas');
+                    this.context = this.canvas.getContext('2d');
+                    this.canvasWidth = 0;
+                    this.canvasHeight = 0;
+                    this.particleLength = 150;
+                    this.particles = [];
+                    this.particleMaxRadius = 8;
+
+                    this.handleMouseMoveBind = this.handleMouseMove.bind(this);
+                    this.handleClickBind = this.handleClick.bind(this);
+                    this.handleResizeBind = this.handleResize.bind(this);
+
+                    this.initialize();
+                    this.render();
+                }
+
+                initialize() {
+                    this.resizeCanvas();
+                    for (let i = 0; i < this.particleLength; i++) {
+                        this.particles.push(this.createParticle(i));
+                    }
+                    this.bind();
+                }
+
+                bind() {
+                    document.body.addEventListener('mousemove', this.handleMouseMoveBind, false);
+                    document.body.addEventListener('click', this.handleClickBind, false);
+                    window.addEventListener('resize', this.handleResizeBind, false);
+                }
+
+                unbind() {
+                    document.body.removeEventListener('mousemove', this.handleMouseMoveBind, false);
+                    document.body.removeEventListener('click', this.handleClickBind, false);
+                    window.removeEventListener('resize', this.handleResizeBind, false);
+                }
+
+                handleMouseMove(e) {
+                    this.enlargeParticle(e.clientX, e.clientY);
+                }
+
+                handleClick(e) {
+                    this.burstParticle(e.clientX, e.clientY);
+                }
+
+                handleResize() {
+                    this.resizeCanvas();
+                }
+
+                resizeCanvas() {
+                    this.canvasWidth = document.body.offsetWidth;
+                    this.canvasHeight = document.body.offsetHeight;
+                    this.canvas.width = this.canvasWidth * window.devicePixelRatio;
+                    this.canvas.height = this.canvasHeight * window.devicePixelRatio;
+                    this.context = this.canvas.getContext('2d');
+                    this.context.scale(window.devicePixelRatio, window.devicePixelRatio);
+                }
+
+                createParticle(id, isRecreate) {
+                    const radius = random(1, this.particleMaxRadius);
+                    const x = isRecreate ? -radius - random(0, this.canvasWidth) : random(0, this.canvasWidth);
+                    let y = random(this.canvasHeight / 2 - 150, this.canvasHeight / 2 + 150);
+                    y += random(-100, 100);
+                    const alpha = random(0.05, 1);
+
+                    return {
+                        id: id,
+                        x: x,
+                        y: y,
+                        startY: y,
+                        radius: radius,
+                        defaultRadius: radius,
+                        startAngle: 0,
+                        endAngle: Math.PI * 2,
+                        alpha: alpha,
+                        color: { r: random(0, 100), g: random(0, 100), b: 255 },
+                        speed: alpha + 1,
+                        amplitude: random(50, 200),
+                        isBurst: false
+                    };
+                }
+
+                drawParticles() {
+                    this.particles.forEach(particle => {
+                        // 位置情報更新
+                        this.moveParticle(particle);
+
+                        // particle描画
+                        this.context.beginPath();
+                        this.context.fillStyle = `rgba(${particle.color.r}, ${particle.color.g}, ${particle.color.b}, ${particle.alpha})`;
+                        this.context.arc(particle.x, particle.y, particle.radius, particle.startAngle, particle.endAngle);
+                        this.context.fill();
+                    });
+                }
+
+                moveParticle(particle) {
+                    particle.x += particle.speed;
+                    particle.y = particle.startY + particle.amplitude * Math.sin(((particle.x / 5) * Math.PI) / 180);
+                }
+
+                enlargeParticle(clientX, clientY) {
+                    this.particles.forEach(particle => {
+                        if (particle.isBurst) return;
+
+                        const distance = Math.hypot(particle.x - clientX, particle.y - clientY);
+
+                        if (distance <= 100) {
+                            const scaling = (100 - distance) / 1.5;
+                            TweenMax.to(particle, 0.5, {
+                                radius: particle.defaultRadius + scaling,
+                                ease: Power2.easeOut
+                            });
+                        } else {
+                            TweenMax.to(particle, 0.5, {
+                                radius: particle.defaultRadius,
+                                ease: Power2.easeOut
+                            });
+                        }
+                    });
+                }
+
+                burstParticle(clientX, clientY) {
+                    this.particles.forEach(particle => {
+                        const distance = Math.hypot(particle.x - clientX, particle.y - clientY);
+
+                        if (distance <= 100) {
+                            particle.isBurst = true;
+                            TweenMax.to(particle, 0.5, {
+                                radius: particle.defaultRadius + 200,
+                                alpha: 0,
+                                ease: Power2.easeOut,
+                                onComplete: () => {
+                                    this.particles[particle.id] = this.createParticle(particle.id, true);
+                                }
+                            });
+                        }
+                    });
+                }
+
+                render() {
+                    // canvas初期化
+                    this.context.clearRect(0, 0, this.canvasWidth + this.particleMaxRadius * 2, this.canvasHeight);
+
+                    // particleを描画
+                    this.drawParticles();
+
+                    // 画面から消えたら新しいparticleに差し替え
+                    this.particles.forEach(particle => {
+                        if (particle.x - particle.radius >= this.canvasWidth) {
+                            this.particles[particle.id] = this.createParticle(particle.id, true);
+                        }
+                    });
+
+                    requestAnimationFrame(this.render.bind(this));
+                }
+            }
+
+            new Visual();
+        </script>
+    </div>
+    <div class="pp">
+        <p>Hover your mouse over the picture</p>
+    </div>
+    <div class="back">
+        <canvas id="dots"></canvas>
+        <img src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=792&q=80" />
+        <script>
+            var dimensions = [document.documentElement.clientWidth, document.documentElement.clientHeight];
+
+            const dots = document.getElementById('dots');
+            dots.width = dimensions[0];
+            dots.height = dimensions[1];
+            const ctx = dots.getContext('2d');
+            const d = Math.max(dimensions[0], dimensions[1]);
+            const r = 50;
+
+            const xDist = dimensions[0] / r;
+            const yDist = xDist;
+
+            let mx = 0;
+            let my = 0;
+
+            let s = 1;
+
+            const dotsArray = [];
+
+            for (let x = 0; x < r * r; x++) {
+                dotsArray.push([
+                    (xDist / 2) + xDist * (x % r),
+                    (yDist / 2) + yDist * Math.floor(x / r),
+                    1
+                ]);
+            }
+
+            const render = (timer) => {
+
+                const t = timer * 0.0025;
+
+                ctx.fillStyle = 'rgb(112, 103, 103)';
+                ctx.fillRect(0, 0, dimensions[0], dimensions[1]);
+
+                ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+
+                for (let x = 0; x < r * r; x++) {
+
+                    const dist = Math.hypot(mx - dotsArray[x][0], my - dotsArray[x][1]);
+
+                    if (dist < 150) {
+                        dotsArray[x][2] = dotsArray[x][2] + (200 - dist) * 0.6;
+                    } else {
+                        dotsArray[x][2] = dotsArray[x][2] - 9;
+                    }
+
+                    if (dotsArray[x][2] > 400) { dotsArray[x][2] = 400; }
+                    if (dotsArray[x][2] < 1) { dotsArray[x][2] = 1; }
+
+                    const l = Math.floor(x / r) + t;
+                    const m = x % r + t;
+
+                    const tx = Math.sin(l) * xDist;
+                    const ty = Math.cos(m) * yDist;
+
+                    if (dotsArray[x][2] > 1) {
+                        ctx.beginPath();
+                        ctx.arc(tx + dotsArray[x][0], ty + dotsArray[x][1], 1 + dotsArray[x][2] / 8, 0, 2 * Math.PI);
+                        ctx.fill();
+                    }
+
+                }
+
+                requestAnimationFrame(render);
+            }
+
+            window.addEventListener('mousemove', (e) => {
+                mx = e.clientX;
+                my = e.clientY;
+            });
+
+            render();
+
+        </script>
+    </div>
+    <div class="field">
+        <fieldset>
+            <p><b>Canvas Cloud</b></p>
+            <h4><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis omnis vitae quas, debitis, quia maiores officia quod deserunt</b></h4>
+        </fieldset>
+
+    </div>
+    <div class="field2">
+        <fieldset>
+            <p><b>Find the cat</b></p>
+            <h4><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis omnis vitae quas, debitis, quia maiores officia quod deserunt</b></h4>
+
+        </fieldset>
+    </div>
+    <div class="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>UI/UX</h5>
+                <div class="logogo">
+                    <img src="~/fonts/css/cat (1).png" />
+                </div>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam molestias labore.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="far fa-user"></i>
+                <h5>Fronend</h5>
+                <div class="logogo">
+                    <img src="~/fonts/css/cat (2).png" />
+                </div>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam molestias labore.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="far fa-bell"></i>
+                <h5>Web</h5>
+                <div class="logogo">
+                    <img src="~/fonts/css/cat (3).png" />
+                </div>
+                <div class="pra">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam molestias labore.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background"></div>
+    <div class="background-texture"></div>
+
+    <section class="carousel">
+        <h2 class="categories__title">Learn how to create animations</h2>
+        <div class="carousel__container">
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="carousel-item__img"
+                     src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                     alt="people" />
+                <div class="carousel-item__details">
+                    <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                    </div>
+                    <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                    <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="disc">
+
+        <div class="conte grid2 mtop">
+            <h1><b>Get a discount today!</b></h1>
+            <div class="box flex">
+                <div class="left">
+                    <img src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                </div>
+                <div class="right">
+                    <h4>Sign up for the course</h4>
+                    <div class="logogo">
+                        <img src="~/fonts/css/cat (3).png" />
+                    </div>
+                    <div class="rate flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nam molestias labore.</p>
+                    <h5>Discount $50</h5>
+                    <button class="flex1">
+                        <span>Check Availability</span>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="secc">
+        <div class="ppp">
+            <h1><b>Choose your direction:</b></h1>
+        </div>
+        <div class="boxxx">
+
+            <div class="cardss">
+
+                <div class="imgBx">
+
+                    <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="images">
+                </div>
+                <div class="detailss">
+                    <h2>Create your first site<br><span>HTML|CSS|REACT</span></h2>
+                </div>
+            </div>
+
+            <div class="cardss">
+                <div class="imgBx">
+                    <img src="https://images.unsplash.com/photo-1612072355751-134977011ede?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1177&q=80" alt="images">
+                </div>
+                <div class="detailss">
+                    <h2>Create your first app<br><span>HTML|CSS|.NET</span></h2>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </section>
+    <script>
+
+    </script>
+</body>
+</html>
